@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{93A4540E-3F68-4784-B005-E93DE33D6F50}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1FD7CF93-DBFA-446F-8867-BEFC2F801147}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "TextDiscovery", "src\TextDiscovery\TextDiscovery.xproj", "{AA933B8B-4F8A-49B7-89D4-E202CD3C8C0D}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "TextDiscovery.DemoConsole", "src\TextDiscovery.DemoConsole\TextDiscovery.DemoConsole.xproj", "{D44C6DA8-ED6C-48BA-A146-4BED4B9AE05B}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "TextDiscovery.AngleSharp", "src\TextDiscovery.AngleSharp\TextDiscovery.AngleSharp.xproj", "{396471F2-7340-49A4-908F-9D3D62E83FB6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA933B8B-4F8A-49B7-89D4-E202CD3C8C0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA933B8B-4F8A-49B7-89D4-E202CD3C8C0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA933B8B-4F8A-49B7-89D4-E202CD3C8C0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA933B8B-4F8A-49B7-89D4-E202CD3C8C0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D44C6DA8-ED6C-48BA-A146-4BED4B9AE05B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D44C6DA8-ED6C-48BA-A146-4BED4B9AE05B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D44C6DA8-ED6C-48BA-A146-4BED4B9AE05B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D44C6DA8-ED6C-48BA-A146-4BED4B9AE05B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{396471F2-7340-49A4-908F-9D3D62E83FB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{396471F2-7340-49A4-908F-9D3D62E83FB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{396471F2-7340-49A4-908F-9D3D62E83FB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{396471F2-7340-49A4-908F-9D3D62E83FB6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AA933B8B-4F8A-49B7-89D4-E202CD3C8C0D} = {93A4540E-3F68-4784-B005-E93DE33D6F50}
+		{D44C6DA8-ED6C-48BA-A146-4BED4B9AE05B} = {93A4540E-3F68-4784-B005-E93DE33D6F50}
+		{396471F2-7340-49A4-908F-9D3D62E83FB6} = {93A4540E-3F68-4784-B005-E93DE33D6F50}
+	EndGlobalSection
+EndGlobal

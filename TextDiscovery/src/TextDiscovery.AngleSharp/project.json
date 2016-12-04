@@ -1,0 +1,26 @@
+{
+	"description": "TextDiscovery AngleSharp implementations",
+	"copyright": "© 2016 David West",
+	"title": "TextDiscovery.AngleSharp",
+	"version": "1.0.0",
+
+	"frameworks": {
+		"netstandard1.0": {
+			"dependencies": {
+				"System.Collections": "4.3.0",
+				"System.Linq": "4.3.0",
+				"System.Runtime.Extensions": "4.3.0"
+			}
+		},
+		"net45": {}
+	},
+	"scripts": {
+		"postcompile": [
+			"dotnet pack --no-build --configuration Release"
+		]
+	},
+    "dependencies": {
+        "AngleSharp": "0.9.9",
+        "TextDiscovery": "1.0.0"
+    }
+}

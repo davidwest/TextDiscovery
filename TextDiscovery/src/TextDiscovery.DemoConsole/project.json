@@ -1,0 +1,27 @@
+{
+    "title": "TextDiscovery Demo Console",
+    "version": "1.0.0-*",
+    "buildOptions": {
+        "emitEntryPoint": true
+    },
+
+    "dependencies": {
+        "AngleSharp": "0.9.9",
+        "Humanizer.Core": "2.1.0",
+        "Microsoft.NETCore.App": "1.1.0",
+        "Shaman.Stemming": "1.0.1.2",
+        "SimpleInjector": "3.3.2",
+        "TextDiscovery": "1.0.0",
+        "TextDiscovery.AngleSharp": "1.0.0"
+    },
+
+    "frameworks": {
+        "netcoreapp1.0": {
+            "imports": "dnxcore50"
+        }
+    },
+
+    "runtimes": {
+        "win10-x64": {}
+    }
+}
