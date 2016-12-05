@@ -2,10 +2,10 @@
 	"description": "Pure linear-progressive text analysis engine (with no regex in sight) to handle the following scenarios through simple service apis: Break plain text into a sequence of slices which can be reconstituted as annotated text.  Generate meta-rich tokens from a search expression to then be used to annotate source text matches; noise-word detection, tokenization, and matching options are configurable. Use a common adapter interface with interchangeable DOM libraries (HtmlAgility, AngleSharp, etc.) to do the following: mark search hits in the DOM, create HTML excerpts at a given word count with configurable element-breaking rules, and extract text content with selectively preserved formatting indicators. High degree of extensibility leveraging dependency injection. While regex can be used in advanced configurations, it is not required. See project site for demos.",
 	"copyright": "© 2016 David West",
 	"title": "TextDiscovery",
-	"version": "1.0.01",
+	"version": "1.0.02",
 
 	"frameworks": {
-		"netstandard1.1": {
+		"netstandard1.0": {
 			"dependencies": {
 				"System.Runtime.Extensions": "4.3.0",
 				"System.Collections": "4.3.0",
