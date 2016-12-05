@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("TextDiscovery.HtmlAgilityPack")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("TextDiscovery HtmlAgilityPack adapters")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Louisiana State University")]
+[assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("TextDiscovery.HtmlAgilityPack")]
-[assembly: AssemblyCopyright("Copyright © Louisiana State University 2016")]
+[assembly: AssemblyCopyright("© David West")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: AssemblyVersion("1.0.3")]
+[assembly: AssemblyFileVersion("1.0.3")]

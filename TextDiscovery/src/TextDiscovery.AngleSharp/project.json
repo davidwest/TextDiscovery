@@ -1,8 +1,8 @@
 {
-	"description": "TextDiscovery AngleSharp implementations",
+	"description": "TextDiscovery AngleSharp adapters",
 	"copyright": "© 2016 David West",
 	"title": "TextDiscovery.AngleSharp",
-	"version": "1.0.02",
+	"version": "1.0.3",
 
 	"frameworks": {
 		"netstandard1.0": {
@@ -21,6 +21,6 @@
 	},
     "dependencies": {
         "AngleSharp": "0.9.9",
-        "TextDiscovery": "1.0.02"
+        "TextDiscovery": "1.0.3"
     }
 }
