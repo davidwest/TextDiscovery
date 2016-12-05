@@ -1,5 +1,5 @@
 {
-	"description": "TextDiscovery AngleSharp implementations",
+	"description": "TextDiscovery AngleSharp adapters",
 	"copyright": "© 2016 David West",
 	"title": "TextDiscovery.AngleSharp",
 	"version": "1.0.02",
