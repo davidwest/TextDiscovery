@@ -10,7 +10,7 @@ namespace TextDiscovery.Dom.HtmlAgilityPack
 
 		public HtmlNode CreateTextNode(HtmlNode root, string text)
 		{
-			return HtmlNode.CreateNode("text");
+			return HtmlNode.CreateNode(text);
 		}
 
 		public HtmlNode CreateElementNode(HtmlNode root, string elementName, Dictionary<string, string> attributes, string innerHtml = null)
