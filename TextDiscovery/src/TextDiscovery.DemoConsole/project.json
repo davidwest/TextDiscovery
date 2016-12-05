@@ -11,8 +11,8 @@
         "Microsoft.NETCore.App": "1.1.0",
         "Shaman.Stemming": "1.0.1.2",
         "SimpleInjector": "3.3.2",
-        "TextDiscovery": "1.0.0",
-        "TextDiscovery.AngleSharp": "1.0.0"
+        "TextDiscovery": "1.0.01",
+        "TextDiscovery.AngleSharp": "1.0.01"
     },
 
     "frameworks": {
