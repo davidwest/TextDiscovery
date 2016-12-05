@@ -14,8 +14,8 @@ namespace TextDiscovery.DemoConsole
 
 			// *** Html ***
 			//DemoHtmlTextCompiler.Start();
-			DemoHtmlSearchTextCompiler.Start();
-			//DemoHtmlSearchTextMarker.Start();
+			//DemoHtmlSearchTextCompiler.Start();
+			DemoHtmlSearchTextMarker.Start();
 			//DemoHtmlExcerpter.Start();
         }
     }

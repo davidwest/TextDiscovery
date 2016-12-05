@@ -1,6 +1,7 @@
 ﻿
 using System.Collections.Generic;
 using System.Linq;
+using System.Web;
 using HtmlAgilityPack;
 
 namespace TextDiscovery.Dom.HtmlAgilityPack
@@ -20,7 +21,7 @@ namespace TextDiscovery.Dom.HtmlAgilityPack
 		public string GetName(HtmlNode node) => node.Name;
 
 		public bool IsTextNode(HtmlNode node) => node.NodeType == HtmlNodeType.Text;
-		public string GetText(HtmlNode node) => node.InnerText;
+		public string GetText(HtmlNode node) => HttpUtility.HtmlDecode(node.InnerText);
 		public void SetText(HtmlNode node, string text) => node.InnerHtml = text;
 
 		public HtmlNode GetParent(HtmlNode node) => node.ParentNode;
