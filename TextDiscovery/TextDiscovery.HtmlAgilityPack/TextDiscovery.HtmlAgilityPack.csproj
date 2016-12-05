@@ -44,8 +44,8 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
-    <Reference Include="TextDiscovery, Version=1.0.2.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\TextDiscovery.1.0.02\lib\net45\TextDiscovery.dll</HintPath>
+    <Reference Include="TextDiscovery, Version=1.0.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\TextDiscovery.1.0.3\lib\net45\TextDiscovery.dll</HintPath>
       <Private>True</Private>
     </Reference>
   </ItemGroup>
