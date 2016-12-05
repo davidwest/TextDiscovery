@@ -49,6 +49,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DomInterpreter.cs" />
+    <Compile Include="DomNodeFactory.cs" />
+    <Compile Include="HtmlConverter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
